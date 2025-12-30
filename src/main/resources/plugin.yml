@@ -1,0 +1,12 @@
+name: HeartlessHearts
+version: 1.0.0
+main: com.heartless.HeartlessHearts
+api-version: "1.21"
+
+commands:
+  hearts:
+    permission: heartless.admin
+
+permissions:
+  heartless.admin:
+    default: op
