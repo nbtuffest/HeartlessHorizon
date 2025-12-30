@@ -1,0 +1,25 @@
+starting-hearts: 20
+hearts-lost-per-death: 2
+
+block-health-boost: true
+block-absorption: false
+
+zero-hearts-action: BAN
+
+icon:
+  symbol: "●"
+  stages:
+    - minHearts: 20
+      color: "DARK_GREEN"
+    - minHearts: 15
+      color: "GREEN"
+    - minHearts: 10
+      color: "YELLOW"
+    - minHearts: 6
+      color: "GOLD"
+    - minHearts: 3
+      color: "RED"
+    - minHearts: 1
+      color: "NONE"
+    - minHearts: 0
+      color: "BLACK"
